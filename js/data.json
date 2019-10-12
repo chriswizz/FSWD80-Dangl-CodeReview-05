@@ -1,0 +1,50 @@
+data = `[
+	{
+		"id": "01",
+		"name": "True Detective",
+		"date": "Since 2014",
+		"description": "Seasonal anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law.",
+		"img": "img/true-detective.jpeg",
+		"likeCounts": 0
+	},
+	{
+		"id": "02",
+		"name": "The Fall",
+		"date": "2013 - 2016",
+		"description": "A seemingly cold but very passionate policewoman goes head to head with a seemingly passionate father who is in fact a cold serialist in this procedural out of Belfast. The only thing they share is their common complexity.",
+		"img": "img/the-fall.jpg",
+		"likeCounts": 0
+	},
+	{
+		"id": "03",
+		"name": "The Killing",
+		"date": "2011 - 2014",
+		"description": "A police investigation, the saga of a grieving family, and a Seattle mayoral campaign all interlock after the body of 17-year-old Rosie Larsen is found in the trunk of a submerged car.",
+		"img": "img/the-killing.jpg",
+		"likeCounts": 0
+	},
+	{
+		"id": "04",
+		"name": "Luther",
+		"date": "Since 2010",
+		"description": "DCI John Luther is a near-genius murder detective whose brilliant mind can't always save him from the dangerous violence of his passions.",
+		"img": "img/luther.jpeg",
+		"likeCounts": 0
+	},
+	{
+		"id": "05",
+		"name": "Mindhunter",
+		"date": "Since 2017",
+		"description": "Set in the late 1970s, two FBI agents are tasked with interviewing serial killers to solve open cases.",
+		"img": "img/mindhunter.jpg",
+		"likeCounts": 0
+	},
+	{
+		"id": "06",
+		"name": "The Blacklist",
+		"date": "Since 2013",
+		"description": "A new FBI profiler, Elizabeth Keen, has her entire life uprooted when a mysterious criminal, Raymond Reddington, who has eluded capture for decades, turns himself in and insists on speaking only to her.",
+		"img": "img/the-blacklist.jpg",
+		"likeCounts": 0
+	}
+]`

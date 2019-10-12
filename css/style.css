@@ -1,0 +1,38 @@
+body {
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	}
+
+.bg-main {
+	background-color: #000033;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.text-black {
+	color: black;
+}
+
+/* dvd cover aspect ratio (7.25" by 10.75")*/
+.embed-responsive-29by42::before {
+	padding-top: 144.827586%;
+}
+
+img {
+	object-fit: cover;
+}
+
+.btn {
+	height: 40px;
+}
+
+.scale {
+	height: 1rem;
+}
+
+.count-likes {
+	height: 55px;
+	width: 55px;
+	font-size: 2rem;
+}

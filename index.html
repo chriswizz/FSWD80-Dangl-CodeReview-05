@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Crime Scene</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- bootstrap css local fallback - copy bootstrap file in correct folder -->
+	<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+	<!-- adapt external css link -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="row bg-black">
+			<div class="col-12 h1 mb-0 py-5 text-white text-center">The Crime Scene</div>	
+		</div>
+
+		<div class="row bg-dark">
+			<div class="col-12 h2 mb-0 px-5 py-4 font-weight-bold">
+			<a class="text-white text-decoration-none" href="#" title="">Home</a>
+			<a class="text-white text-decoration-none ml-5" href="https://www.imdb.com/title/tt2356777/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank" title="">IMDB</a>
+			</div>	
+		</div>
+
+		<div class="row bg-main">
+			<div class="col h2 mb-0 px-5 py-4 text-white"></div>	
+			<div class="col h2 mb-0 px-5 py-4 text-white text-center">Top Crime Series</div>	
+			<div class="col h3 mb-0 px-5 py-4 text-white text-right">
+				<select id="selectSort" class="bg-main text-white border-0">
+					<option value="" disabled selected>Sort</option>
+					<option value="id">Default</option>
+					<option value="name">Name</option>
+					<option value="likeCounts">Likes</option>
+				</select>
+			</div>	
+		</div>
+
+		<div id="containerItems" class="row bg-main text-secondary">
+			<!-- items from js -->
+		</div>
+
+		<div class="row bg-black">
+			<div class="col-12 h2 mb-0 py-5 text-white text-center">The Crime Scene</div>	
+		</div>
+
+
+	</div>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- bootstrap js local fallback - copy bootstrap file in correct folder -->	
+	<!-- <script src="js/bootstrap.min.js"></script> -->
+	<!-- adapt external js src-->
+	<script src="js/data.json"></script>
+	<script src="js/myscript.js"></script>
+</body>
+</html>
