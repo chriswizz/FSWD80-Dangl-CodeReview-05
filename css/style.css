@@ -15,8 +15,8 @@ body {
 }
 
 /* dvd cover aspect ratio (7.25" by 10.75")*/
-.embed-responsive-29by42::before {
-	padding-top: 144.827586%;
+.embed-responsive-29by43::before {
+	padding-top: 148.2758621%;
 }
 
 img {

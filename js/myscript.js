@@ -17,7 +17,7 @@ var maxStringLength = 200;
 for(i = 0; i < products.length; i++) {
 	p = products[i];
 	if (p.description.length > maxStringLength) {
-		p.description = p.description.slice(1, maxStringLength) + "...";
+		p.description = p.description.slice(0, maxStringLength) + "...";
 	}
 }
 
@@ -45,7 +45,7 @@ $(document).ready(function() {
 				<!-- background item -->
 				<div class="row no-gutters p-2 bg-black">
 					<!-- item left part img -->
-					<div class="wrapper-image col-4 embed-responsive embed-responsive-29by42 rounded border border-secondary">
+					<div class="wrapper-image col-4 embed-responsive embed-responsive-29by43 rounded border border-secondary">
 						<img class="embed-responsive-item" src="${products[i].img}" alt="image of crime series ${products[i].name}">
 					</div>
 					<!-- item right part text-->
